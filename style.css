@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 50px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0;
+}
+.header-section{
+    display: flex;
+}
+.header-left{
+    width: 50%;
+    margin-left:10%;
+    margin-top: 10%;
+}
+.title h1{
+    font-size: 40px;
+    font-weight: bold;
+    width: 350px;
+    line-height: 50px;
+    color: rgb(71, 71, 71);
+    margin-bottom: 0;
+}
+.colored-text{
+    color:orange;
+}
+.text{
+    width: 400px;
+}
+.text p{
+    color: rgb(131, 131, 131);
+}
+
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    padding: 12px 20px;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 4px 4px 5px rgba(136, 136, 136, 0.267);
+}
+.header-right{
+    width: 50%;
+}
+.header-right img{
+    height: 80%;
+    width: 80%;
+    margin-top: 70px;
+}
+.about-section{
+    display: flex;
+    background-image: url(images/head-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.about-left{
+    height: 30%;
+    width: 30%;
+    margin-left:10%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+.about-left img{
+    width: 70%;
+    height: 73%;
+}
+.about-right {
+    width: 50%;
+    margin-top: 7%;
+}
+.about-text{
+    color: black;
+    width: 400px;
+}
+.about-text p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    line-height: 25px;
+}
+
+
+.recipe-header h1{
+    text-align: center;
+}
+.recipe-header p{ 
+    text-align: center;
+    padding:0 200px;
+    margin-bottom: 4%;
+}
+.card-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.card-item{
+    height: 350px;
+    width: 250px;
+    box-shadow: 4px 4px 5px gray;
+    justify-content: center;
+    padding: 10px;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.card-item img{
+    height: 180px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+.banner{
+    margin-top: 5%;
+    height: 200px;
+    background-image: linear-gradient(salmon, tomato);
+    border-radius: 20px;
+    margin: 0 10px ;
+}
+.banner h1{
+    text-align: center;
+    padding-top: 3%;
+    line-height: 55px;
+}
+
+.testimonial-section{
+    margin-top: 5%;
+}
+.testimonial-section h1{
+    text-align: center;
+}
+.test-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.test-item{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    padding: 20px;
+    
+}
+.test-item img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.test-item h3{
+    text-align: center;
+}
+.test-item p{
+    text-align: center;
+}
+.footer-section{
+    height: 170px;
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    background-color: black;
+}
+.footer-section h1{
+    padding: 30px;
+    margin-bottom: 0;
+}
+.footer-section p{
+    color: white;
+    margin-top: 0;
+}
+
+
+
